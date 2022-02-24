@@ -1,0 +1,92 @@
+:root{
+    --light-gray : rgb(233, 232, 230);  /*background*/
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: var(--light-gray);
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-image: url("../img/gallery/photo-2.jpg");
+    background-color: var(--light-gray);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    transform: scale(0.2);
+    justify-self: center;
+    margin-left: -8em;
+}
+
+.nav-bar{
+  margin-left: 2em;
+}
+
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+.nav-bar li{
+    list-style: none;
+    margin: 0.6em;
+}
+
+.text{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left: 50%;
+
+}
+
+.text p{
+    padding: 2.39em 4em;
+}
+
+.text img{
+    transform: scale(0.8);
+}
+
+
+footer{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+footer a{
+    text-decoration:underline;
+}
+
+footer a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+
+
