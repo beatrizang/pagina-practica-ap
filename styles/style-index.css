@@ -14,7 +14,7 @@ a{
 }
 
 a:hover{
-    color: var(--light-gray);
+    color: white;
 }
 
 li{
