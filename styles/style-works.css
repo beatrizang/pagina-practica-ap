@@ -136,6 +136,13 @@
       text-align: center;
   }
 
+  @media (max-width:1260px){
+    .content {
+      margin-top: 40%;
+
+    }
+  }
+
 
 
 
